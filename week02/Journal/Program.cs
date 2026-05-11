@@ -1,9 +1,8 @@
-using System;
-
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Journal Project.");
+        JournalManager manager = new();
+        manager.Run();
     }
 }
